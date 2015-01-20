@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vs.cppcc.activity.PhotoViewActivity">
+
+
+
+
+    <com.mingle.ui.HackyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        </com.mingle.ui.HackyViewPager>
+    <TextView
+        android:id="@+id/indexTV"
+        android:layout_centerHorizontal="true"
+        android:text="1/23"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/oval_grey_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="我是第一个"
+                android:singleLine="true"
+            android:padding="8dp"
+            android:background="@color/md_grey_900_t"
+            android:id="@+id/indexTitleTV"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_height="fill_parent" />
+        </LinearLayout>
+
+</RelativeLayout>

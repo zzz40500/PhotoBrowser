@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CircularProgress Default -->
+    <color name="circular_progress_color">#ff3f51b5</color>
+    <bool name="circular_progress_indeterminate">true</bool>
+    <dimen name="circular_progress_border_width">4dp</dimen>
+    <dimen name="circular_progress_small_size">36dp</dimen>
+    <dimen name="circular_progress_normal_size">48dp</dimen>
+    <dimen name="circular_progress_large_size">60dp</dimen>
+    <integer name="circular_progress_max">100</integer>
+
+
+    <color name="md_grey_900_t">#aa616161</color>
+
+
+
+
+
+</resources>
